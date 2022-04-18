@@ -1,43 +1,70 @@
 body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Abadi';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #000;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Abadi';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	margin-left: 20px;
+	margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+.navbar {
+  margin-bottom: 20px;
 }
 
-ul.posts li {
-    list-style: none;
+div#content {
+	width:700px;
+	margin-left: 20px;
+	margin-right: auto;
+	text-align:left
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+div#header{
+  padding-top: 60px;
+	font-size: 24px;
+	font-weight: bold;
+  padding-bottom: 10px;
+}
+
+div.name{
+  padding-top: 10px;
+	font-size: 32px;
+	font-weight: bold;
+  padding-bottom: 10px;
+}
+
+p.details{
+  padding-top: 8px;
+	font-size: 18px;
+	font-weight: bold;
+  padding-bottom: 8px;
+  color: #0081DD;
+}
+
+p.contact{
+  padding-top: 8px;
+	font-size: 14px;
+  padding-bottom: 8px;
+  color: #666666;
+}
+
+p.bio{
+  padding-top: 8px;
+	font-size: 14px;
+  padding-bottom: 8px;
+}
+
+div h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+div#container {
+}
+
+em.award {
+   color: #FF8100;
+   font-style: normal;
+	font-weight: bold;
 }
